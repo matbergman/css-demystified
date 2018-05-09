@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Mobile-First CSS Demo</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet/less" type="text/css" href="css/nav.less"> <!-- LESS style sheet, compiled to CSS with less.js -->
+
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> <!-- I'd rather not install a whole framework for this demo -->
+        <script type="text/javascript" src="js/nav.js"></script> <!-- Navigation demo JavaScript -->
+        <script type="text/javascript" src="js/less.js"></script> <!-- Compiling LESS on client for demo. Normally this happens on the server -->
+                
+        </head>
+
+    <body>
+
+        <nav class="nav">
+
+            <div class="nav__wrapper">
+
+            <button class="nav__menu"></button>
+
+            <a class="nav__logo" href="/pdp">Logo</a>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/" class="nav__link nav__link-1">Main</a></li>
+                <li class="nav__item"><a href="/" class="nav__link nav__link-2">Pull Requests</a></li>
+                <li class="nav__item"><a href="/" class="nav__link nav__link-3">Issues</a></li>
+                <li class="nav__item"><a href="/" class="nav__link nav__link-4">Marketplace</a></li>
+                <li class="nav__item"><a href="/" class="nav__link nav__link-5">Resources</a></li>
+                <li class="nav__item"><a href="/" class="nav__link nav__link-6">About</a></li>
+            </ul>
+
+            </div>
+
+        </nav>
+
+    </body>
+</html>
